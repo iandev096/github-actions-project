@@ -30,7 +30,7 @@ jobs:
       with:
         image: ianyimiah/github-actions-project
         tags: v1, latest
-        registry: registry-url.io
-        dockerfile: Dockerfile.ci
+        registry: hub.docker.com
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }} 
