@@ -31,6 +31,5 @@ jobs:
         image: ianyimiah/github-actions-project
         tags: v1, latest
         registry: docker.io
-        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }} 
